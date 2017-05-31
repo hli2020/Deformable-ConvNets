@@ -1,8 +1,8 @@
 ---
-MXNET_VERSION: "mxnet"
+MXNET_VERSION: "hyli_damn_version"
 output_path: "./output/rfcn_dcn/coco"
 symbol: resnet_v1_101_rfcn_dcn
-gpus: '0,1,2,3,4,5,6,7'
+gpus: '0,1'
 CLASS_AGNOSTIC: true
 SCALES:
 - 600
